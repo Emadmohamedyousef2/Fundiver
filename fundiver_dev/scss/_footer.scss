@@ -1,0 +1,54 @@
+footer {
+    background: url(../images/bg-footer-en.svg) no-repeat left bottom;
+    background-size: cover;
+    padding: 40px 0 20px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 100;
+    .container-xl {
+        position: relative;
+    }
+    .footer-logos {
+        li {
+       
+            a {
+                display: inline-block;
+            }
+            img {
+                transform: scale(0.75);
+            }
+        }
+        @media (max-width: 575.98px) {
+            margin-bottom: 1.5rem;
+        }
+    }
+    .links {
+        text-align: left;
+        li {
+            list-style: disc;
+            margin-left: 15px;
+        }
+        a {
+            color: #CBCBCB;
+            font-size: 1em;
+        }
+    }
+    .social-links {
+        transform: scale(.7);
+        a {
+            margin: 10px;
+        }
+    }
+}
+
+.scrolltop {
+    position: absolute;
+    left: 20px;
+    top: -65px;
+    z-index: 1000;
+    cursor: pointer;
+    svg {
+            width: 50px;
+    }
+}
